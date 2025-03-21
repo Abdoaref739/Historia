@@ -3,22 +3,19 @@
     padding: 0;
 }
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-image: url("./images/AlbedoBase_XL_Dark_atmospheric_cave_Towering_rock_formations_d_2.jpg");
     background-position-y: -50px;
 }
 #logo-image{
     position: absolute;
-    margin-top: 450px;
+    margin-top: 200px;
+    margin-left: 460px;
 }
 .main-page-blur{
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.541);
-    margin-top: 630px;
 }
 .particles{
     position: absolute;
@@ -38,7 +35,8 @@ body{
     align-items: center;
     width: 280px;
     height: 50px;
-    margin-top: 800px;
+    margin-top: 380px;
+    margin-left: 540px;
 }
 #start-button{
     position: absolute;
@@ -56,4 +54,16 @@ body{
 }
 #start-button:hover{
     border-bottom: 5px solid white;
+}
+@media (max-width: 768px) {
+    #logo-image {
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 30%;
+    }
+
+    #start-button {
+        width: 40%;
+        font-size: 4vw;
+    }
 }
