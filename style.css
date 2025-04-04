@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("./images/AlbedoBase_XL_Dark_atmospheric_cave_Towering_rock_formations_d_2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+#logo-image{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 460px;
+}
+.main-page-blur{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.541);
+}
+.particles{
+    position: absolute;
+    display: none;
+    width: 1px;
+    height: 1px;
+    background-color: aliceblue;
+    margin-bottom: 100px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 1px 1px white;
+    transition: 0.7s ease-in-out;
+}
+#particles{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 50px;
+    margin-top: 430px;
+    margin-left: 530px;
+}
+#particles2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 50px;
+    margin-top: 530px;
+    margin-left: 530px;
+}
+#start-button{
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    transition: 0.7s ease;
+    cursor: pointer;
+}
+#start-button:hover{
+    border-bottom: 5px solid white;
+}
+
+#options-button{
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    transition: 0.7s ease;
+    cursor: pointer;
+}
+#options-button:hover{
+    border-bottom: 5px solid white;
+}
+
+.demo-sentence{
+    position: absolute;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 730px;
+    margin-left: 540px;
+}
+.demo-version-word{
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+#options-div{
+    position: absolute;
+    display: none;
+    width: 350px;
+    height: 420px;
+    background-color: rgba(168, 168, 168, 0);
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    margin-top: 160px;
+    margin-left: 490px;
+}
+#options-blur{
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.801);
+}
+#marketplace-button{
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    transition: 0.7s ease;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+#marketplace-button:hover{
+    border-bottom: 5px solid white;
+}
+
+#donate-button{
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    transition: 0.7s ease;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 180px;
+}
+#donate-button:hover{
+    border-bottom: 5px solid white;
+}
+
+#contactus-button{
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    transition: 0.7s ease;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 260px;
+}
+#contactus-button:hover{
+    border-bottom: 5px solid white;
+}
+
+#settings-button{
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    transition: 0.7s ease;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 320px;
+}
+#settings-button:hover{
+    border-bottom: 5px solid white;
+}
+
+@media (max-width: 768px) {
+    #logo-image {
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 30%;
+    }
+
+    #start-button {
+        width: 40%;
+        font-size: 4vw;
+    }
+}
