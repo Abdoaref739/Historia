@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("./images/04db4c74-a2c1-42f7-847d-a732f9d4a311.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    background-attachment: fixed;
+}
+#levels-logo-image{
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    margin-top: 70px;
+    margin-left: 460px;
+}
+#levels-blur{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.685);
+}
+.player-instructions{
+    position: absolute;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 160px;
+    margin-left: 500px;
+    color: whitesmoke;
+    font-family:cursive;
+}
+#player-name{
+    font-weight: 600;
+}
+.level-number{
+    position: absolute;
+    font-size: 48px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    margin-top: 40px;
+    margin-left: 90px;
+    color: whitesmoke;
+}
+.level-text{
+    position: absolute;
+    color: whitesmoke;
+    font-size: 17px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    margin-top: 140px;
+    margin-left: 20px;
+}
+#level1-div{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    margin: 220px 0px 0px 270px;
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+#level1-div:hover{
+    width: 200px;
+    height: 215px;
+}
+#level2-div{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    margin: 220px 0px 0px 570px;
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+#level2-div:hover{
+    width: 200px;
+    height: 215px;
+}
+#level3-div{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    margin: 220px 0px 0px 870px;
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+#level3-div:hover{
+    width: 200px;
+    height: 215px;
+}
+#level4-div{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    margin: 520px 0px 0px 270px;
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+#level4-div:hover{
+    width: 200px;
+    height: 215px;
+}
+#level5-div{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    margin: 520px 0px 0px 570px;
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+#level5-div:hover{
+    width: 200px;
+    height: 215px;
+}
+#level6-div{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    margin: 520px 0px 0px 870px;
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+#level6-div:hover{
+    width: 200px;
+    height: 215px;
+}

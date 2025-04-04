@@ -1,3 +1,4 @@
+
 let glowing_codeverse_logo = document.getElementById("glowing-codeverse-logo");
 const keyframes = [
     { opacity: '10%' },
@@ -33,6 +34,13 @@ window.onload = function(){
     const intro_soundeffect = document.getElementById("intro-soundeffect");
         intro_soundeffect.play()
         window.onclick = false;
+        let  sound_track_loaded;
+        window.sound_track_loaded  = localStorage.setItem("Intro_sound_track_loaded", true);
         
 }, { once: true }
 }
+
+window.addEventListener('resize', () => {
+    window.resizeTo(800, 600);
+  });
+

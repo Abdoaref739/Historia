@@ -7,12 +7,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <audio id="main-track" loop="true" preload="auto" autoplay>
+        <source src="./sounds/apocalypse-153277.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+      <audio src="./sounds/button-key-press-gfx-sounds-5-5-00-00.mp3" id="click-sound" preload="auto"></audio>
+      
+      
     <div class="main-page-blur"></div>
     <img src="./images/logo-image.png" id="logo-image">
     
     <div id="particles">
-        <button id="start-button">start</button>
+        <button id="start-button">Start!</button>
     </div>
+    
+    <div id="particles2">
+        <button id="options-button">Options</button>
+    </div>
+    <span class="demo-sentence">This version is only a <span class="demo-version-word">BETA VERSION!</span></span>
+    
+    <div id="options-blur"></div>
+    <div id="options-div">
+        <button id="marketplace-button">Marketplace</button>
+        <button id="donate-button">Buy me a coffee!</button>
+        <button id="contactus-button">Contact Us</button>
+        <button id="settings-button">Settings</button>
+    </div>
+    
     <script src="file.js"></script>
 </body>
 </html>
